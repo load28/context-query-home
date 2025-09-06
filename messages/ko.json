@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "home": "홈",
+    "docs": "문서",
+    "examples": "예제",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "Context Query",
+    "subtitle": "간단하고 강력한 React 상태 관리",
+    "description": "직관적이고 확장 가능한 React 상태 관리를 위한 가볍고 타입 안전한 상태 관리 라이브러리입니다.",
+    "getStarted": "시작하기",
+    "viewExamples": "예제 보기"
+  },
+  "features": {
+    "title": "왜 Context Query인가?",
+    "typeScript": {
+      "title": "TypeScript 우선",
+      "description": "뛰어난 타입 안전성과 개발 경험을 위해 TypeScript로 처음부터 구축되었습니다."
+    },
+    "performance": {
+      "title": "고성능",
+      "description": "필요한 곳에서만 선택적으로 업데이트하는 최적화된 재렌더링입니다."
+    },
+    "simple": {
+      "title": "간단한 API",
+      "description": "배우고 사용하기 쉬운 깔끔하고 직관적인 API입니다."
+    },
+    "lightweight": {
+      "title": "가벼움",
+      "description": "의존성이 없는 최소한의 번들 크기입니다."
+    }
+  },
+  "quickStart": {
+    "title": "빠른 시작",
+    "installation": "설치",
+    "usage": "기본 사용법",
+    "step1": "패키지 설치",
+    "step2": "상태 atoms 생성",
+    "step3": "컴포넌트에서 사용"
+  },
+  "codeExample": {
+    "title": "간단한 예제",
+    "description": "Context Query로 상태를 관리하는 것이 얼마나 쉬운지 확인해보세요:"
+  },
+  "docs": {
+    "title": "Context Query 문서",
+    "subtitle": "React 애플리케이션에서 효과적인 상태 관리를 위한 Context Query 사용법을 배워보세요",
+    "sections": {
+      "gettingStarted": "시작하기",
+      "api": "API Reference", 
+      "guides": "가이드",
+      "examples": "예제"
+    },
+    "gettingStarted": {
+      "title": "시작하기",
+      "subtitle": "Context Query의 기본 사항과 React 애플리케이션에 통합하는 방법을 배워보세요",
+      "installation": {
+        "title": "설치",
+        "description": "선호하는 패키지 관리자를 사용하여 Context Query를 설치하세요:",
+        "npm": "npm 사용",
+        "yarn": "yarn 사용"
+      },
+      "basicUsage": {
+        "title": "기본 사용법",
+        "description": "Context Query를 시작하는 방법입니다:",
+        "step1": {
+          "title": "1. 상태 Atoms 생성",
+          "description": "atom 함수를 사용하여 상태 atoms을 정의하세요:"
+        },
+        "step2": {
+          "title": "2. Provider 설정", 
+          "description": "ContextQueryProvider로 앱을 감싸세요:"
+        },
+        "step3": {
+          "title": "3. 컴포넌트에서 사용",
+          "description": "컴포넌트에서 상태에 접근하고 업데이트하세요:"
+        }
+      },
+      "features": {
+        "title": "주요 특징",
+        "scopedState": {
+          "title": "컴포넌트 트리 범위 상태 관리:",
+          "description": "전역이 아닌 특정 컴포넌트 트리에만 영향"
+        },
+        "optimizedRendering": {
+          "title": "최적화된 렌더링:",
+          "description": "구독한 상태만 업데이트되어 불필요한 리렌더링 방지"
+        },
+        "typeScript": {
+          "title": "TypeScript 지원:",
+          "description": "완벽한 타입 안정성과 자동 완성"
+        },
+        "reactFriendly": {
+          "title": "React 친화적 API:",
+          "description": "useState와 유사한 직관적인 인터페이스"
+        }
+      }
+    },
+    "apiReference": {
+      "title": "API 참조",
+      "subtitle": "모든 Context Query API에 대한 완전한 참조 문서",
+      "createContextQuery": {
+        "title": "createContextQuery",
+        "description": "Context Query 인스턴스를 생성합니다. 타입 매개변수로 상태 구조를 정의합니다."
+      },
+      "useContextAtom": {
+        "title": "useContextAtom",
+        "description": "상태를 읽고 쓸 수 있는 훅입니다. React의 useState와 유사한 API를 제공합니다."
+      },
+      "useContextAtomValue": {
+        "title": "useContextAtomValue",
+        "description": "상태를 읽기만 할 때 사용합니다. 상태 변경 함수가 필요 없을 때 유용합니다."
+      },
+      "useContextSetAtom": {
+        "title": "useContextSetAtom",
+        "description": "상태를 쓰기만 할 때 사용합니다. 현재 상태 값이 필요 없이 업데이트만 할 때 유용합니다."
+      }
+    },
+    "guides": {
+      "title": "가이드",
+      "formManagement": {
+        "title": "폼 상태 관리",
+        "description": "Context Query를 사용하여 복잡한 폼 상태를 효율적으로 관리할 수 있습니다."
+      },
+      "performance": {
+        "title": "성능 최적화",
+        "description": "적절한 훅을 선택하여 불필요한 리렌더링을 방지할 수 있습니다."
+      },
+      "bestPractices": {
+        "title": "Best Practices",
+        "stateStructure": {
+          "title": "상태 구조 설계:",
+          "description": "관련된 데이터는 하나의 atom으로 그룹화하고, 독립적인 데이터는 별도의 atom으로 분리하세요."
+        },
+        "hookSelection": {
+          "title": "적절한 훅 선택:",
+          "description": "읽기만 필요하면 useContextAtomValue, 쓰기만 필요하면 useContextSetAtom을 사용하세요."
+        },
+        "typeSafety": {
+          "title": "타입 안정성:",
+          "description": "TypeScript를 사용하여 상태 타입을 명확히 정의하세요."
+        },
+        "providerLocation": {
+          "title": "Provider 위치:",
+          "description": "상태가 필요한 컴포넌트 트리의 최상위에 Provider를 배치하세요."
+        }
+      }
+    },
+    "examples": {
+      "title": "예제",
+      "todoApp": {
+        "title": "Todo 앱",
+        "description": "Context Query를 사용한 간단한 Todo 앱 구현 예제입니다."
+      },
+      "themeToggle": {
+        "title": "테마 전환",
+        "description": "다크 모드와 커스텀 테마를 관리하는 예제입니다."
+      }
+    }
+  },
+  "examples": {
+    "title": "실시간 예제",
+    "subtitle": "이 인터랙티브 예제들과 함께 Context Query를 체험해보세요",
+    "note": "✨ 실제 라이브러리 구현: 아래 모든 예제들은 실제 @context-query/react 라이브러리를 사용해서 구현되었습니다.",
+    "counter": {
+      "title": "카운터 예제",
+      "description": "증가 및 감소 기능이 있는 간단한 카운터",
+      "increment": "증가",
+      "decrement": "감소", 
+      "reset": "초기화",
+      "currentState": "현재 상태:"
+    },
+    "todo": {
+      "title": "할 일 목록",
+      "description": "추가 및 제거 기능이 있는 할 일 목록 관리",
+      "placeholder": "새로운 할 일을 추가하세요...",
+      "addTodo": "할 일 추가",
+      "remove": "제거", 
+      "currentState": "현재 상태:"
+    },
+    "theme": {
+      "title": "테마 관리",
+      "description": "밝은 테마와 어두운 테마 전환",
+      "toggleTheme": "테마 전환",
+      "currentTheme": "현재 테마:",
+      "light": "밝은 테마",
+      "dark": "어두운 테마",
+      "currentState": "현재 상태:",
+      "fontSize": "글자 크기",
+      "fontSizes": {
+        "small": "작게",
+        "medium": "보통",
+        "large": "크게"
+      },
+      "previewTitle": "테마 미리보기",
+      "previewDescription": "선택한 테마 설정이 이렇게 적용됩니다.",
+      "exampleButton": "예시 버튼"
+    },
+    "todo": {
+      "title": "할 일 목록",
+      "description": "추가 및 제거 기능이 있는 할 일 목록 관리",
+      "placeholder": "새로운 할 일을 추가하세요...",
+      "addTodo": "할 일 추가",
+      "remove": "제거",
+      "currentState": "현재 상태:",
+      "stateNote": "✨ Todo를 추가/수정/삭제하면 상태값이 실시간으로 변경됩니다"
+    }
+  },
+  "footer": {
+    "madeWith": "만든 도구:",
+    "by": "개발자:"
+  }
+}

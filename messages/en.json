@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "home": "Home",
+    "docs": "Docs",
+    "examples": "Examples",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "Context Query",
+    "subtitle": "Simple and Powerful React State Management",
+    "description": "A lightweight, type-safe state management library that makes React state management intuitive and scalable.",
+    "getStarted": "Get Started",
+    "viewExamples": "View Examples"
+  },
+  "features": {
+    "title": "Why Context Query?",
+    "typeScript": {
+      "title": "TypeScript First",
+      "description": "Built with TypeScript from the ground up for excellent type safety and developer experience."
+    },
+    "performance": {
+      "title": "High Performance",
+      "description": "Optimized re-rendering with selective updates only where needed."
+    },
+    "simple": {
+      "title": "Simple API",
+      "description": "Clean, intuitive API that's easy to learn and use."
+    },
+    "lightweight": {
+      "title": "Lightweight",
+      "description": "Minimal bundle size with zero dependencies."
+    }
+  },
+  "quickStart": {
+    "title": "Quick Start",
+    "installation": "Installation",
+    "usage": "Basic Usage",
+    "step1": "Install the package",
+    "step2": "Create your state atoms",
+    "step3": "Use in your components"
+  },
+  "codeExample": {
+    "title": "Simple Example",
+    "description": "Here's how easy it is to manage state with Context Query:"
+  },
+  "docs": {
+    "title": "Context Query Documentation",
+    "subtitle": "Learn how to use Context Query for effective state management in React applications",
+    "sections": {
+      "gettingStarted": "Getting Started",
+      "api": "API Reference", 
+      "guides": "Guides",
+      "examples": "Examples"
+    },
+    "gettingStarted": {
+      "title": "Getting Started",
+      "subtitle": "Learn the basics of Context Query and how to integrate it into your React application",
+      "installation": {
+        "title": "Installation",
+        "description": "Install Context Query using your preferred package manager:",
+        "npm": "Using npm",
+        "yarn": "Using yarn"
+      },
+      "basicUsage": {
+        "title": "Basic Usage",
+        "description": "Here's how to get started with Context Query:",
+        "step1": {
+          "title": "1. Create State Atoms",
+          "description": "Define your state atoms using the atom function:"
+        },
+        "step2": {
+          "title": "2. Setup Provider", 
+          "description": "Wrap your app with the ContextQueryProvider:"
+        },
+        "step3": {
+          "title": "3. Use in Components",
+          "description": "Access and update state in your components:"
+        }
+      },
+      "features": {
+        "title": "Key Features",
+        "scopedState": {
+          "title": "Component Tree Scoped State Management:",
+          "description": "Affects only specific component trees, not globally"
+        },
+        "optimizedRendering": {
+          "title": "Optimized Rendering:",
+          "description": "Only subscribed state updates, preventing unnecessary re-renders"
+        },
+        "typeScript": {
+          "title": "TypeScript Support:",
+          "description": "Complete type safety and auto-completion"
+        },
+        "reactFriendly": {
+          "title": "React Friendly API:",
+          "description": "Intuitive interface similar to useState"
+        }
+      }
+    },
+    "apiReference": {
+      "title": "API Reference",
+      "subtitle": "Complete reference for all Context Query APIs",
+      "createContextQuery": {
+        "title": "createContextQuery",
+        "description": "Creates a Context Query instance. Define state structure with type parameters."
+      },
+      "useContextAtom": {
+        "title": "useContextAtom",
+        "description": "Hook to read and write state. Provides API similar to React's useState."
+      },
+      "useContextAtomValue": {
+        "title": "useContextAtomValue",
+        "description": "Use when you only need to read state. Useful when state setter function is not needed."
+      },
+      "useContextSetAtom": {
+        "title": "useContextSetAtom",
+        "description": "Use when you only need to write state. Useful when current state value is not needed for updates only."
+      }
+    },
+    "guides": {
+      "title": "Guides",
+      "formManagement": {
+        "title": "Form State Management",
+        "description": "You can efficiently manage complex form state using Context Query."
+      },
+      "performance": {
+        "title": "Performance Optimization", 
+        "description": "You can prevent unnecessary re-renders by selecting appropriate hooks."
+      },
+      "bestPractices": {
+        "title": "Best Practices",
+        "stateStructure": {
+          "title": "State Structure Design:",
+          "description": "Group related data into one atom, and separate independent data into separate atoms."
+        },
+        "hookSelection": {
+          "title": "Proper Hook Selection:",
+          "description": "Use useContextAtomValue for read-only, useContextSetAtom for write-only operations."
+        },
+        "typeSafety": {
+          "title": "Type Safety:",
+          "description": "Use TypeScript to clearly define state types."
+        },
+        "providerLocation": {
+          "title": "Provider Location:",
+          "description": "Place Provider at the top of the component tree where state is needed."
+        }
+      }
+    },
+    "examples": {
+      "title": "Examples",
+      "todoApp": {
+        "title": "Todo App",
+        "description": "A simple Todo app implementation example using Context Query."
+      },
+      "themeToggle": {
+        "title": "Theme Toggle",
+        "description": "An example of managing dark mode and custom themes."
+      }
+    }
+  },
+  "examples": {
+    "title": "Live Examples",
+    "subtitle": "Experience Context Query in action with these interactive examples",
+    "note": "✨ Real Library Implementation: All examples below are implemented using the actual @context-query/react library.",
+    "counter": {
+      "title": "Counter Example",
+      "description": "A simple counter with increment and decrement functionality",
+      "increment": "Increment",
+      "decrement": "Decrement", 
+      "reset": "Reset",
+      "currentState": "Current State:"
+    },
+    "todo": {
+      "title": "Todo List",
+      "description": "Manage a list of todos with add and remove functionality",
+      "placeholder": "Add a new todo...",
+      "addTodo": "Add Todo",
+      "remove": "Remove", 
+      "currentState": "Current State:"
+    },
+    "theme": {
+      "title": "Theme Management",
+      "description": "Switch between light and dark themes",
+      "toggleTheme": "Toggle Theme",
+      "currentTheme": "Current theme:",
+      "light": "light",
+      "dark": "dark",
+      "currentState": "Current State:",
+      "fontSize": "Font Size",
+      "fontSizes": {
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large"
+      },
+      "previewTitle": "Theme Preview",
+      "previewDescription": "Your selected theme settings are applied like this.",
+      "exampleButton": "Example Button"
+    },
+    "todo": {
+      "title": "Todo List",
+      "description": "Manage a list of todos with add and remove functionality",
+      "placeholder": "Add a new todo...",
+      "addTodo": "Add Todo",
+      "remove": "Remove",
+      "currentState": "Current State:",
+      "stateNote": "✨ Todo state values change in real-time when you add/edit/delete todos"
+    }
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "by": "by"
+  }
+}

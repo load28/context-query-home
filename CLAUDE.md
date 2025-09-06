@@ -1,0 +1,5 @@
+- 이 프로젝트는 https://github.com/load28/context-query의 공식 홈페이지
+- 가이드/설치방법/철학 등을 설명해야함
+- 실제 코드는 /Users/minyeoungseo/Downloads/source/context-query 경로에 존재함
+- 디자인은 미니멀하게 현대적인 접근방식으로 접근하자
+- 반응형을 지원해서 모바일에서도 볼 수 있어야한다.
